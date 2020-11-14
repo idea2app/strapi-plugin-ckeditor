@@ -1,0 +1,33 @@
+{
+  "name": "strapi-plugin-ckeditor",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "shiy2008@gmail.com",
+  "description": "Replace Strapi default WYSIWYG editor with CKEditor 5",
+  "strapi": {
+    "name": "ckeditor",
+    "icon": "edit",
+    "description": "Replace Strapi default WYSIWYG editor with CKEditor 5"
+  },
+  "homepage": "https://github.com/TechQuery/strapi-plugin-ckeditor",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TechQuery/strapi-plugin-ckeditor.git"
+  },
+  "bugs": {
+      "url": "https://github.com/TechQuery/strapi-plugin-ckeditor/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-react": "^3.0.0",
+    "ckeditor-build-with-simple-upload-provider-strapi": "^1.0.7",
+    "lodash.isempty": "^4.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "strapi-helper-plugin": "^3.3.2",
+    "styled-components": "^5.2.1"
+  }
+}
